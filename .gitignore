@@ -1,7 +1,9 @@
 node_modules/
 .next/
+.open-next/
 out/
 dist/
 .env*
 *.log
 .DS_Store
+worker-configuration.d.ts
