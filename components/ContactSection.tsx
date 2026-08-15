@@ -105,7 +105,7 @@ export const ContactSection: React.FC = () => {
                 GOOGLE MAPS LOCATION (BASRA)
               </span>
               <a
-                href="https://maps.google.com/?q=Al-Abbasiya+Basra+Iraq"
+                href="https://maps.app.goo.gl/548Sy5QcCBfNWvqa8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-bold text-[#A30018] hover:underline"

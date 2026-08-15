@@ -84,10 +84,15 @@ export const AboutSection: React.FC = () => {
                 {dict.about.placeholderNote}
               </p>
 
-              <div className="pt-4 border-t border-[#F5F2EB]/20 flex items-center gap-3 text-xs text-[#F5F2EB]/60">
+              <a
+                href="https://maps.app.goo.gl/548Sy5QcCBfNWvqa8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pt-4 border-t border-[#F5F2EB]/20 flex items-center gap-3 text-xs text-[#F5F2EB]/80 hover:text-[#A30018] transition-colors"
+              >
                 <MapPin className="w-4 h-4 text-[#A30018]" />
-                <span>Al-Abbasiya District, Basra, Iraq</span>
-              </div>
+                <span>Al-Abbasiya District, Basra, Iraq (View on Google Maps)</span>
+              </a>
             </div>
           </motion.div>
 
